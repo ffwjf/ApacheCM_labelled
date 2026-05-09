@@ -1,0 +1,45 @@
+sample_size_per_group: 20
+
+=== kept_samples(message mentions symbol) ===
+1. ARROW-18: Fix decimal precision and scale in MapWriters
+2. ARROW-15: Fix a naming typo for memory.AllocationManager.AllocationOutcome
+3. ARROW-31: Python: prototype user object model, add PyList conversion path with type inference
+4. ARROW-46: ListVector should initialize bits in allocateNew
+5. ARROW-3281: [Java] Make sure that WritableByteChannel in WriteChannel writes
+6. ARROW-3392: [Python] Support filters in disjunctive normal form in ParquetDataset
+7. ARROW-2165: [JAVA] enhance AllocationListener with onChildAdded()/onChildRemoved() calls
+8. ARROW-2808: [Python] Add MemoryPool tests
+9. ARROW-3336: [JS] Fix IPC writer serializing sliced Utf8Vectors
+10. ARROW-3540: [Rust] Incorporate BooleanArray into PrimitiveArray
+11. ARROW-3278: [Python] Retrieve StructType's and StructArray's field by name
+12. ARROW-3634: [GLib] Follow CudaDeviceManager::AllocateHost() API change
+13. ARROW-3583: [Python/Java] Create RecordBatch from VectorSchemaRoot
+14. ARROW-3649: [Rust] Refactor MutableBuffer's resize
+15. ARROW-3664: [Rust] Add benchmark for PrimitiveArrayBuilder
+16. ARROW-3744: [Ruby] Use garrow_table_to_string() in Arrow::Table#to_s
+17. ARROW-3752: [C++] Remove unused status::ArrowError
+18. ARROW-3796: [Rust] Add Example for PrimitiveArrayBuilder
+19. ARROW-3703: [Python] DataFrame.to_parquet crashes if datetime column has time zones
+20. ARROW-3797: [Rust] BinaryArray::value_offset incorrect in offset case
+
+=== dropped_samples(message no symbol mention) ===
+1. PARQUET-416: C++11 compilation, code reorg, libparquet and installation targets
+2. PARQUET-449: updated to latest parquet.thrift
+3. PARQUET-469: Roll back Thrift thirdparty and compiled sources to 0.9.0
+4. ARROW-4: This provides an partial C++11 implementation of the Apache Arrow data structures along with a cmake-based build system. The codebase generally follows Google C++ style guide, but more cleaning to be more conforming is needed. It uses googletest for unit testing.
+5. ARROW-1: Initial Arrow Code Commit
+6. PARQUET-468: Use thirdparty Thrift compiler to compile parquet.thrift at make time
+7. ARROW-17: set some vector fields to package level access for Drill compatibility
+8. ARROW-8: Add .travis.yml and test script for Arrow C++. OS X build fixes
+9. ARROW-36: Remove fixVersions from JIRA resolve code path
+10. ARROW-10: Fix mismatch of javadoc names and method parameters
+11. ARROW-9: Rename some unchanged "Drill" to "Arrow" (follow-up)
+12. ARROW-43: Python: format array values to in __repr__ for interactive computing
+13. ARROW-55: [Python] Fix unit tests in 2.7
+14. ARROW-64: Add zsh support to C++ build scripts
+15. ARROW-68: Better error handling for not fully setup systems
+16. ARROW-75: Fix handling of empty strings
+17. ARROW-67: C++ metadata flatbuffer serialization and data movement to memory maps
+18. ARROW-63: [C++] Enable ctest to work on systems with Python 3 as the default Python
+19. ARROW-80: Handle len call for pre-init arrays
+20. ARROW-89: [Python] Add benchmarks for Arrow<->Pandas conversion
