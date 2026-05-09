@@ -39,10 +39,10 @@ label_dataset/
     *   将 Diff 中的实体名作为锚点，在 Commit Message 中进行搜索。
     *   **动态大小写敏感**：若 Diff 实体列表中无大小写冲突，则进行不区分大小写匹配；若存在冲突（如 `Buffer` 与 `buffer`），则强制区分大小写匹配。
 4.  **均衡性过滤**：
-    *   涉及实体总数 $N \ge 2$。
-    *   被 Message 提到的实体（Positive）数量 $P \ge 1$。
-    *   未被 Message 提到的实体（Negative）数量 $M \ge 1$。
-    *   即：$1 \le P < N$。
+    *   涉及实体总数 N ≥ 2。
+    *   被 Message 提到的实体（Positive）数量 P ≥ 1。
+    *   未被 Message 提到的实体（Negative）数量 M ≥ 1。
+    *   即：1 ≤ P < N。
 
 ## 统计摘要
 
